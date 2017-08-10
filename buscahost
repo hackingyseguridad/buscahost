@@ -1,0 +1,5 @@
+#!/bin/sh
+echo "Busca host en los DNS por palabra o dominio"
+echo "Rastrea en todo internet. 4000 millones de IP IPv4"
+echo "Uso: ./buscahost <palabra>"
+nmap 0.0.0.0/0 -sL --dns-servers 91.239.100.100 |grep $1
