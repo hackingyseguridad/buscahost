@@ -1,0 +1,2 @@
+#/bin/bash
+for i in {1..254}; do ip=192.168.1.$i; echo $ip && if dig +short @8.8.8.8 -x $ip; then echo; fi; done
