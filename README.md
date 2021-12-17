@@ -1,6 +1,6 @@
 # buscahost
 
-busca hostname IP en los DNS por palabra o dominio
+busca una cadena texto en los hostname del fqdn o dominio
 
 Uso: ./buscahost <palabra>
 
